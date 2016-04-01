@@ -7,7 +7,7 @@
 
 		li {
 			list-style-type: none;
-			margin: $content-margin-small 0 0;
+			margin: $gravity-margin 0 0;
 		}
 	}
 
@@ -28,10 +28,10 @@
 		clear: both;
 		display: inline-block;
 		font-weight: 600;
-		margin: $content-margin-small / 2 0;
+		margin: $gravity-margin-small 0;
 
 		@include min-screen($small-screen) {
-			margin-top: $content-margin / 2;
+			margin-top: $gravity-margin-medium;
 		}
 	}
 
@@ -47,10 +47,10 @@
 	.field_description_above {
 
 		.gfield_description {
-			margin-bottom: $content-margin-small / 2;
+			margin-bottom: $gravity-margin-small;
 
 			@include min-screen($small-screen) {
-				margin-bottom: $content-margin / 2;
+				margin-bottom: $gravity-margin-medium;
 			}
 		}
 	}

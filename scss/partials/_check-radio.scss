@@ -7,10 +7,10 @@
 		li {
 			display: flex;
 			line-height: 1;
-			margin: 0 0 $content-margin-small / 2;
+			margin: 0 0 $gravity-margin-small;
 
 			input {
-				margin-right: $content-margin-small / 2
+				margin-right: $gravity-margin-small
 			}
 		}
 	}

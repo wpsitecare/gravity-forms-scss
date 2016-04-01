@@ -5,12 +5,12 @@
 		@include full();
 
 		border-bottom: 1px dotted $light-gray;
-		margin: 0 0 $content-margin-small / 2;
-		padding: 0 0 $content-margin-small / 2;
+		margin: 0 0 $gravity-margin-small;
+		padding: 0 0 $gravity-margin-small;
 
 		@include min-screen($small-screen) {
-			margin-bottom: $content-margin / 2;
-			padding-bottom: $content-margin / 2;
+			margin-bottom: $gravity-margin-medium;
+			padding-bottom: $gravity-margin-medium;
 		}
 
 		.gf_progressbar_title {
@@ -82,12 +82,12 @@
 		@include full();
 
 		border-bottom: 1px dotted $light-gray;
-		margin: 0 0 $content-margin-small / 2;
-		padding: 0 0 $content-margin-small / 2;
+		margin: 0 0 $gravity-margin-small;
+		padding: 0 0 $gravity-margin-small;
 
 		@include min-screen($small-screen) {
-			margin-bottom: $content-margin / 2;
-			padding-bottom: $content-margin / 2;
+			margin-bottom: $gravity-margin-medium;
+			padding-bottom: $gravity-margin-medium;
 		}
 	}
 
