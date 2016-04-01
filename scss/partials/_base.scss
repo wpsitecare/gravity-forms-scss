@@ -1,0 +1,73 @@
+/* Gravity Forms
+--------------------------------------------- */
+.gform_wrapper {
+
+	ul {
+		margin-left: 0;
+
+		li {
+			list-style-type: none;
+			margin: $content-margin-small 0 0;
+		}
+	}
+
+	.gform_title,
+	.gsection_title {
+		font-size: $h4-font-size;
+	}
+
+	.gform_fields {
+		padding: 0;
+	}
+
+	.gfield {
+		clear: both;
+	}
+
+	.gfield_label {
+		clear: both;
+		display: inline-block;
+		font-weight: 600;
+		margin: $content-margin-small / 2 0;
+
+		@include min-screen($small-screen) {
+			margin-top: $content-margin / 2;
+		}
+	}
+
+	.gfield_description {
+		font-size: $medium-font-size;
+	}
+
+	.gfield_required {
+		color: $gravity-required;
+		padding-left: 2px;
+	}
+
+	.field_description_above {
+
+		.gfield_description {
+			margin-bottom: $content-margin-small / 2;
+
+			@include min-screen($small-screen) {
+				margin-bottom: $content-margin / 2;
+			}
+		}
+	}
+
+	.ginput_container {
+
+		.small {
+			width: 25%;
+		}
+
+		.medium {
+			width: 50%;
+		}
+
+		.large {
+			width: 100%;
+		}
+
+	}
+}

@@ -1,0 +1,23 @@
+.gform_wrapper {
+
+	textarea {
+		resize: none;
+
+		&.small,
+		&.medium {
+			width: 100%;
+		}
+
+		&.small {
+			height: 5em;
+		}
+
+		&.medium {
+			height: 9.375em;
+		}
+
+		&.large {
+			height: 15.625em;
+		}
+	}
+}

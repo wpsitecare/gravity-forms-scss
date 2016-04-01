@@ -1,0 +1,41 @@
+.gform_wrapper {
+
+	.ginput_complex {
+		display: flex;
+
+		&.ginput_container_address {
+			flex-wrap: wrap;
+		}
+
+		span {
+			flex-shrink: 1;
+			flex-grow: 1;
+			margin-right: 1.6949152542%;
+
+			&:last-of-type {
+				margin-right: 0;
+			}
+		}
+
+		.name_prefix_select {
+			flex-grow: 0;
+			flex-shrink: 0;
+		}
+
+		.ginput_full {
+			flex-shrink: 0;
+			margin-right: 0;
+			width: 100%;
+		}
+
+		.ginput_left {
+			flex-shrink: 0;
+			@include span(6 of 12);
+		}
+
+		.ginput_right {
+			flex-shrink: 0;
+			@include span(last 6 of 12);
+		}
+	}
+}

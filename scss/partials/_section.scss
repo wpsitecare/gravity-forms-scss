@@ -1,0 +1,20 @@
+.gform_wrapper {
+
+	.gfield_html,
+	.gsection {
+		@include full();
+
+		border-bottom: 1px dotted $light-gray;
+		margin: 0 0 $content-margin-small / 2;
+		padding: 0 0 $content-margin-small / 2;
+
+		@include min-screen($small-screen) {
+			margin-bottom: $content-margin / 2;
+			padding-bottom: $content-margin / 2;
+		}
+	}
+
+	.gfield_html {
+		border-bottom: 0 none;
+	}
+}

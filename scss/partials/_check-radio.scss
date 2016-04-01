@@ -1,0 +1,17 @@
+.gform_wrapper {
+
+	.gfield_checkbox,
+	.gfield_radio {
+		margin-top: 0;
+
+		li {
+			display: flex;
+			line-height: 1;
+			margin: 0 0 $content-margin-small / 2;
+
+			input {
+				margin-right: $content-margin-small / 2
+			}
+		}
+	}
+}

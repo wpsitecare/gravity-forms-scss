@@ -1,0 +1,18 @@
+.gform_wrapper {
+
+	select {
+		padding: 10px;
+	}
+
+	.ginput_container_multiselect {
+
+		select {
+			background: $input-background-color;
+			padding: 0;
+
+			option {
+				padding: $form-input-padding / 2;
+			}
+		}
+	}
+}

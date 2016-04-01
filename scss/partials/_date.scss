@@ -1,0 +1,20 @@
+.gform_wrapper {
+
+	.datepicker_with_icon {
+		margin-right: 10px;
+	}
+
+	.clear-multi {
+		display: flex;
+
+		div {
+			margin-right: 1.6949152542%;
+			flex-grow: 1;
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+
+}

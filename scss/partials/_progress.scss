@@ -1,0 +1,117 @@
+.gform_wrapper {
+	text-align: left;
+
+	.gf_progressbar_wrapper {
+		@include full();
+
+		border-bottom: 1px dotted $light-gray;
+		margin: 0 0 $content-margin-small / 2;
+		padding: 0 0 $content-margin-small / 2;
+
+		@include min-screen($small-screen) {
+			margin-bottom: $content-margin / 2;
+			padding-bottom: $content-margin / 2;
+		}
+
+		.gf_progressbar_title {
+			font-size: $medium-font-size;
+			font-weight: normal;
+		}
+	}
+
+	.gf_progressbar {
+		background: url(images/gf-percentbar-bg.png) repeat-x scroll bottom $white;
+		box-shadow: $form-box-shadow;
+		border: 1px solid $form-border-color;
+		border-radius: $base-border-radius;
+		height: 20px;
+		line-height: 20px;
+		overflow: hidden;
+	}
+
+	.gf_progressbar_percentage {
+		font-size: $medium-font-size;
+		height: 20px;
+		text-align: right;
+		text-shadow: 0 1px 1px rgba($off-black, 0.5);
+
+		span {
+			display: block;
+			float: right;
+			margin: 0 5px;
+			width: auto;
+		}
+
+		&.percentbar_0 span {
+			color: $light-gray;
+			text-shadow: none;
+		}
+	}
+
+	.percentbar_blue {
+		background-image: url(images/gf-percentbar-blue.png);
+		background-color: $gravity-blue;
+		color: $white;
+	}
+
+	.percentbar_gray {
+		background: url(images/gf-percentbar-gray.png);
+		background-color: $gravity-gray;
+		color: $white;
+	}
+
+	.percentbar_green {
+		background-image: url(images/gf-percentbar-green.png);
+		background-color: $gravity-green;
+		color: $white;
+	}
+
+	.percentbar_orange {
+		background-image: url(images/gf-percentbar-orange.png);
+		background-color: $gravity-orange;
+		color: $white;
+	}
+
+	.percentbar_red {
+		background-image: url(images/gf-percentbar-red.png);
+		background-color: $gravity-red;
+		color: $white;
+	}
+
+	.gf_page_steps {
+		@include full();
+
+		border-bottom: 1px dotted $light-gray;
+		margin: 0 0 $content-margin-small / 2;
+		padding: 0 0 $content-margin-small / 2;
+
+		@include min-screen($small-screen) {
+			margin-bottom: $content-margin / 2;
+			padding-bottom: $content-margin / 2;
+		}
+	}
+
+	.gf_step {
+		display: inline-block;
+		height: $h4-font-size;
+		line-height: 1.25;
+		margin: 0 16px 10px 0;
+		opacity: 0.2;
+
+		span {
+			vertical-align: top;
+		}
+	}
+
+	.gf_step_active {
+		opacity: 1;
+	}
+
+	.gf_step_number {
+		font-size: $h4-font-size;
+	}
+
+	.gf_step_clear {
+		@include full();
+	}
+}
