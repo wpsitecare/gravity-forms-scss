@@ -9,21 +9,15 @@
 		text-decoration: none;
 	}
 
-	table {
-		border-collapse: collapse;
-		width: 100%;
-	}
-
 	thead {
-		background: #f7f7f7;
-		background: linear-gradient(to bottom,  #f7f7f7 0%,#f1f1f1 100%);
-		border-bottom: 1px solid #bbb;
+		background: linear-gradient(to bottom, $gravity-light-fog 0%, $gravity-light-fog 100%);
+		border-bottom: 1px solid $gravity-fog;
 	}
 
 	th {
 		text-transform: uppercase;
 		text-align: center;
-		font-size: 6pt;
+		font-size: $gravity-datepicker-heading-font-size;
 		padding: 5px 0;
 		color: $gravity-gray;
 		text-shadow: 1px 0 0 $gravity-white;
@@ -33,12 +27,12 @@
 
 		td {
 			padding: 0;
-			border-top: 1px solid #bbb;
-			border-right: 1px solid #bbb;
+			border-top: 1px solid $gravity-fog;
+			border-right: 1px solid $gravity-fog;
 		}
 
 		tr {
-			border-bottom: 1px solid #bbb;
+			border-bottom: 1px solid $gravity-fog;
 
 			&:last-child {
 				border-bottom: 0 none;
@@ -65,7 +59,7 @@
 
 .ui-datepicker-header {
 	background-color: $gravity-gray;
-	color: #e0e0e0;
+	color: $gravity-medium-fog;
 	font-weight: bold;
 	box-shadow: $gravity-form-box-shadow;
 	line-height: 30px;
@@ -113,19 +107,18 @@
 	margin-bottom: 0;
 
 	.ui-state-default {
-		background: #ededed;
-		background: linear-gradient(to bottom,  #ededed 0%,#dedede 100%);
-		box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, 0.5);
+		background: linear-gradient(to bottom,  $gravity-light-fog 0%, $gravity-medium-fog 100%);
+		box-shadow: inset 1px 1px 0px 0px rgba($gravity-light-fog, 0.5);
 	}
 
 	.ui-state-hover {
-		background: #f7f7f7;
+		background: $gravity-white;
 	}
 
 	.ui-state-active {
-		background: #FFF2AA; /* set the active date background color */
-		border: 1px solid #c19163; /* set the active date border color */
-		color: $gravity-gray; /* set the active date font color */
+		background: $gravity-yellow;
+		border: 1px solid $gravity-red;
+		color: $gravity-gray;
 		position: relative;
 		margin: -1px;
 	}
@@ -164,11 +157,11 @@
 .ui-datepicker-unselectable {
 
 	.ui-state-default {
-		background: #f4f4f4;
-		color: #b4b3b3;
+		background: $gravity-white;
+		color: $gravity-light-gray;
 	}
 
 	&.ui-state-disabled {
-		background-color: #d7d7d7;
+		background-color: $gravity-light-fog;
 	}
 }

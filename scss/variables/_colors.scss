@@ -20,6 +20,10 @@ $gravity-required:   #f00;
 $gravity-error:      darken($gravity-required, 10);
 $gravity-error-text: lighten($gravity-required, 10);
 $gravity-light-gray: $light-gray;
+$gravity-light-fog:  $light-fog;
+$gravity-medium-fog: $medium-fog;
+$gravity-fog:        $fog;
+$gravity-yellow:     #fff2aa;
 
 // Form Colors
 //------------------------------------------------------------------------------
