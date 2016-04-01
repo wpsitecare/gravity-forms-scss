@@ -1,13 +1,14 @@
-// This file controls all base color styles for our theme. All colors should be
-// defined in _colors.scss. This allows us to at a glance determine global color
-// styles of our theme and prevents arbitrary color assignment.
+// Global Screen Sizes
+//------------------------------------------------------------------------------
+$gravity-small-screen: $small-screen;
 
-// Do not use the base theme colors in the scss partial files! Set up your theme's
-// base colors and then use scoped color values in your Sass partials.
-
-// Gravity Forms Colors
+// Gravity Spacing
 //------------------------------------------------------------------------------
 
 $gravity-margin:        $content-margin-small;
 $gravity-margin-medium: $content-margin / 2;
 $gravity-margin-small:  $gravity-margin / 2;
+
+// Gravity Form Spacing
+//------------------------------------------------------------------------------
+$gravity-form-input-padding: 10px;

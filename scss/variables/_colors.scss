@@ -8,6 +8,9 @@
 // Gravity Forms Colors
 //------------------------------------------------------------------------------
 
+$gravity-black:      #000;
+$gravity-off-black:  $off-black;
+$gravity-white:      $white;
 $gravity-blue:       #0072bc;
 $gravity-gray:       #666;
 $gravity-green:      #94dc21;
@@ -16,3 +19,13 @@ $gravity-red:        #dc2521;
 $gravity-required:   #f00;
 $gravity-error:      darken($gravity-required, 10);
 $gravity-error-text: lighten($gravity-required, 10);
+$gravity-light-gray: $light-gray;
+
+// Form Colors
+//------------------------------------------------------------------------------
+
+$gravity-input-background-color:  $gravity-white;
+$gravity-form-border-color:       $base-border-color;
+$gravity-form-border-color-hover: darken($gravity-form-border-color, 5);
+$gravity-form-border-color-focus: darken($gravity-form-border-color, 20);
+$gravity-form-placeholder-color:  darken($gravity-form-border-color, 10);

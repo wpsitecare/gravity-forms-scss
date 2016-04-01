@@ -2,8 +2,8 @@
 	width: 216px;
 	height: auto;
 	margin: 5px auto 0;
-	font-size: $small-font-size;
-	box-shadow: $form-box-shadow-focus;
+	font-size: $gravity-small-font-size;
+	box-shadow: $gravity-form-box-shadow-focus;
 	z-index: 9999;
 
 	a {
@@ -68,7 +68,7 @@
 	background-color: #666;
 	color: #e0e0e0;
 	font-weight: bold;
-	box-shadow: $form-box-shadow;
+	box-shadow: $gravity-form-box-shadow;
 	line-height: 30px;
 	min-height: 30px;
 	border-width: 1px 0 0;

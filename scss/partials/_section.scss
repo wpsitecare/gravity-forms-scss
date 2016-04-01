@@ -4,11 +4,11 @@
 	.gsection {
 		@include full();
 
-		border-bottom: 1px dotted $light-gray;
+		border-bottom: 1px dotted $gravity-light-gray;
 		margin: 0 0 $gravity-margin-small;
 		padding: 0 0 $gravity-margin-small;
 
-		@include min-screen($small-screen) {
+		@include min-screen($gravity-small-screen) {
 			margin-bottom: $gravity-margin-medium;
 			padding-bottom: $gravity-margin-medium;
 		}
