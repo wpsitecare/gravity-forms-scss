@@ -6,4 +6,9 @@ $gravity-small-font-size:  $small-font-size;
 // Heading Font Properties
 //------------------------------------------------------------------------------
 
-$gravity-h4-font-size: $h4-font-size;
+$gravity-title-font-size: $h4-font-size;
+$gravity-step-font-size:  $gravity-title-font-size;
+
+// Gravity Font Properties
+//------------------------------------------------------------------------------
+$gravity-description-font-size: $gravity-medium-font-size;

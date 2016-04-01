@@ -3,7 +3,6 @@
 	height: auto;
 	margin: 5px auto 0;
 	font-size: $gravity-small-font-size;
-	box-shadow: $gravity-form-box-shadow-focus;
 	z-index: 9999;
 
 	a {
@@ -26,8 +25,8 @@
 		text-align: center;
 		font-size: 6pt;
 		padding: 5px 0;
-		color: #666;
-		text-shadow: 1px 0 0 #fff;
+		color: $gravity-gray;
+		text-shadow: 1px 0 0 $gravity-white;
 	}
 
 	tbody {
@@ -52,20 +51,20 @@
 
 		a,
 		span {
-			color: #666666;
+			color: $gravity-gray;
 			display: inline-block;
 			font-weight: 600;
 			height: 30px;
 			line-height: 30px;
 			text-align: center;
-			text-shadow: 1px 1px 0 #fff;
+			text-shadow: 1px 1px 0 $gravity-white;
 			width: 30px;
 		}
 	}
 }
 
 .ui-datepicker-header {
-	background-color: #666;
+	background-color: $gravity-gray;
 	color: #e0e0e0;
 	font-weight: bold;
 	box-shadow: $gravity-form-box-shadow;
@@ -73,7 +72,7 @@
 	min-height: 30px;
 	border-width: 1px 0 0;
 	border-style: solid;
-	border-color: #666;
+	border-color: $gravity-gray;
 }
 
 .ui-datepicker-title {
@@ -126,9 +125,7 @@
 	.ui-state-active {
 		background: #FFF2AA; /* set the active date background color */
 		border: 1px solid #c19163; /* set the active date border color */
-		color: #666; /* set the active date font color */
-		box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-		text-shadow: 0px 1px 0px #FFF;
+		color: $gravity-gray; /* set the active date font color */
 		position: relative;
 		margin: -1px;
 	}

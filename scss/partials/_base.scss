@@ -13,7 +13,7 @@
 
 	.gform_title,
 	.gsection_title {
-		font-size: $gravity-h4-font-size;
+		font-size: $gravity-title-font-size;
 	}
 
 	.gform_fields {
@@ -36,7 +36,7 @@
 	}
 
 	.gfield_description {
-		font-size: $gravity-medium-font-size;
+		font-size: $gravity-description-font-size;
 	}
 
 	.gfield_required {
@@ -68,6 +68,5 @@
 		.large {
 			width: 100%;
 		}
-
 	}
 }
