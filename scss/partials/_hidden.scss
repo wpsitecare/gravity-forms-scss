@@ -10,4 +10,10 @@
 			width: 1px;
 		}
 	}
+
+	.gform_validation_container {
+		display: none;
+		position: absolute;
+		left: -9000px;
+	}
 }
