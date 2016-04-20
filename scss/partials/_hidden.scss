@@ -2,8 +2,7 @@
 
 	.hidden_label {
 
-		.gfield_label,
-		label {
+		.gfield_label {
 			clip: rect(1px, 1px, 1px, 1px);
 			height: 1px;
 			overflow: hidden;
