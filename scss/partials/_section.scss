@@ -8,7 +8,7 @@
 		margin: 0 0 $gravity-margin-small;
 		padding: 0 0 $gravity-margin-small;
 
-		@include min-screen($gravity-small-screen) {
+		@include min-screen( $gravity-small-screen ) {
 			margin-bottom: $gravity-margin-medium;
 			padding-bottom: $gravity-margin-medium;
 		}

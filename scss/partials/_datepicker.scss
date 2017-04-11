@@ -1,8 +1,8 @@
 .ui-datepicker {
-	width: 216px;
+	font-size: $gravity-small-font-size;
 	height: auto;
 	margin: 5px auto 0;
-	font-size: $gravity-small-font-size;
+	width: 216px;
 	z-index: 9999;
 
 	a {
@@ -10,25 +10,25 @@
 	}
 
 	thead {
-		background: linear-gradient(to bottom, $gravity-light-fog 0%, $gravity-light-fog 100%);
+		background: linear-gradient( to bottom, $gravity-light-fog 0%, $gravity-light-fog 100% );
 		border-bottom: 1px solid $gravity-fog;
 	}
 
 	th {
-		text-transform: uppercase;
-		text-align: center;
+		color: $gravity-gray;
 		font-size: $gravity-datepicker-heading-font-size;
 		padding: 5px 0;
-		color: $gravity-gray;
+		text-align: center;
 		text-shadow: 1px 0 0 $gravity-white;
+		text-transform: uppercase;
 	}
 
 	tbody {
 
 		td {
-			padding: 0;
-			border-top: 1px solid $gravity-fog;
 			border-right: 1px solid $gravity-fog;
+			border-top: 1px solid $gravity-fog;
+			padding: 0;
 		}
 
 		tr {
@@ -59,14 +59,14 @@
 
 .ui-datepicker-header {
 	background-color: $gravity-gray;
+	border-color: $gravity-gray;
+	border-style: solid;
+	border-width: 1px 0 0;
+	box-shadow: $gravity-form-box-shadow;
 	color: $gravity-medium-fog;
 	font-weight: bold;
-	box-shadow: $gravity-form-box-shadow;
 	line-height: 30px;
 	min-height: 30px;
-	border-width: 1px 0 0;
-	border-style: solid;
-	border-color: $gravity-gray;
 }
 
 .ui-datepicker-title {
@@ -82,33 +82,33 @@
 
 .ui-datepicker-prev,
 .ui-datepicker-next {
-	display: inline-block;
-	width: 30px;
-	height: 30px;
-	text-align: center;
-	cursor: pointer;
-	background-image: url(images/gf-arrow.png);
+	background-image: url( "images/gf-arrow.png" );
 	background-repeat: no-repeat;
+	cursor: pointer;
+	display: inline-block;
+	height: 30px;
 	line-height: 600%;
 	overflow: hidden;
+	text-align: center;
+	width: 30px;
 }
 
 .ui-datepicker-prev {
-	float: left;
 	background-position: center -30px;
+	float: left;
 }
 
 .ui-datepicker-next {
+	background-position: center 0;
 	float: right;
-	background-position: center 0px;
 }
 
 .ui-datepicker-calendar {
 	margin-bottom: 0;
 
 	.ui-state-default {
-		background: linear-gradient(to bottom,  $gravity-light-fog 0%, $gravity-medium-fog 100%);
-		box-shadow: inset 1px 1px 0px 0px rgba($gravity-light-fog, 0.5);
+		background: linear-gradient( to bottom,  $gravity-light-fog 0%, $gravity-medium-fog 100% );
+		box-shadow: inset 1px 1px 0 0 transparentize( $gravity-light-fog, 0.5 );
 	}
 
 	.ui-state-hover {
@@ -119,8 +119,8 @@
 		background: $gravity-yellow;
 		border: 1px solid $gravity-red;
 		color: $gravity-gray;
-		position: relative;
 		margin: -1px;
+		position: relative;
 	}
 
 	td {

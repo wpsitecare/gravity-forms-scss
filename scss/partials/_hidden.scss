@@ -3,7 +3,7 @@
 	.hidden_label {
 
 		.gfield_label {
-			clip: rect(1px, 1px, 1px, 1px);
+			clip: rect( 1px, 1px, 1px, 1px );
 			height: 1px;
 			overflow: hidden;
 			position: absolute;
@@ -13,7 +13,7 @@
 
 	.gform_validation_container {
 		display: none;
-		position: absolute;
 		left: -9000px;
+		position: absolute;
 	}
 }

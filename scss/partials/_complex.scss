@@ -8,8 +8,8 @@
 		}
 
 		span {
-			flex-shrink: 1;
 			flex-grow: 1;
+			flex-shrink: 1;
 			margin-right: 1.6949152542%;
 
 			&:last-of-type {
@@ -29,13 +29,13 @@
 		}
 
 		.ginput_left {
+			@include span( 6 of 12 );
 			flex-shrink: 0;
-			@include span(6 of 12);
 		}
 
 		.ginput_right {
+			@include span( last 6 of 12 );
 			flex-shrink: 0;
-			@include span(last 6 of 12);
 		}
 	}
 }

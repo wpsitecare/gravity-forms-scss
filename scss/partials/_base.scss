@@ -29,7 +29,7 @@
 		font-weight: 600;
 		margin: $gravity-margin-small 0;
 
-		@include min-screen($gravity-small-screen) {
+		@include min-screen( $gravity-small-screen ) {
 			margin-top: $gravity-margin-medium;
 		}
 	}
@@ -48,7 +48,7 @@
 		.gfield_description {
 			margin-bottom: $gravity-margin-small;
 
-			@include min-screen($gravity-small-screen) {
+			@include min-screen( $gravity-small-screen ) {
 				margin-bottom: $gravity-margin-medium;
 			}
 		}

@@ -7,7 +7,7 @@
 		margin: 0 0 $gravity-margin-small;
 		padding: 0 0 $gravity-margin-small;
 
-		@include min-screen($gravity-small-screen) {
+		@include min-screen( $gravity-small-screen ) {
 			margin-bottom: $gravity-margin-medium;
 			padding-bottom: $gravity-margin-medium;
 		}
@@ -20,9 +20,9 @@
 
 	.gf_progressbar {
 		background: $gravity-light-gray;
-		box-shadow: $gravity-form-box-shadow;
 		border: 1px solid $gravity-form-border-color;
 		border-radius: $gravity-base-border-radius;
+		box-shadow: $gravity-form-box-shadow;
 		height: 20px;
 		line-height: 20px;
 		overflow: hidden;
@@ -32,7 +32,7 @@
 		font-size: $gravity-medium-font-size;
 		height: 20px;
 		text-align: right;
-		text-shadow: 0 1px 1px rgba($gravity-off-black, 0.5);
+		text-shadow: 0 1px 1px rgba( $gravity-off-black, 0.5 );
 
 		span {
 			display: block;
@@ -79,7 +79,7 @@
 		margin: 0 0 $gravity-margin-small;
 		padding: 0 0 $gravity-margin-small;
 
-		@include min-screen($gravity-small-screen) {
+		@include min-screen( $gravity-small-screen ) {
 			margin-bottom: $gravity-margin-medium;
 			padding-bottom: $gravity-margin-medium;
 		}

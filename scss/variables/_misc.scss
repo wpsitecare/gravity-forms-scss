@@ -5,5 +5,5 @@ $gravity-form-border-radius: $gravity-base-border-radius;
 
 // Global Shadows
 //------------------------------------------------------------------------------
-$gravity-form-box-shadow:       inset 0 1px 3px rgba(0, 0, 0, 0.06);
-$gravity-form-box-shadow-focus: $gravity-form-box-shadow, 0 0 5px rgba(darken($gravity-form-border-color-focus, 5), 0.7);
+$gravity-form-box-shadow:       inset 0 1px 3px rgba( $gravity-black, 0.06 );
+$gravity-form-box-shadow-focus: $gravity-form-box-shadow, 0 0 5px rgba( darken( $gravity-form-border-color-focus, 5) , 0.7 );
