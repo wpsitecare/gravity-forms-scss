@@ -9,27 +9,28 @@
 //------------------------------------------------------------------------------
 
 $gravity-black:      #000;
-$gravity-off-black:  $off-black;
-$gravity-white:      $white;
-$gravity-blue:       #0072bc;
+$gravity-off-black:  #1c1e1f;
 $gravity-gray:       #666;
+$gravity-light-gray: #a4a5a5;
+$gravity-light-fog:  #f3f3f4;
+$gravity-medium-fog: #e0e0e0;
+$gravity-fog:        #ccc;
+$gravity-white:      #fff;
+
+$gravity-blue:       #0072bc;
+$gravity-yellow:     #fff2aa;
 $gravity-green:      #94dc21;
 $gravity-orange:     #dc7021;
 $gravity-red:        #dc2521;
 $gravity-required:   #f00;
 $gravity-error:      darken( $gravity-required, 10 );
 $gravity-error-text: lighten( $gravity-required, 10 );
-$gravity-light-gray: $light-gray;
-$gravity-light-fog:  $light-fog;
-$gravity-medium-fog: $medium-fog;
-$gravity-fog:        $fog;
-$gravity-yellow:     #fff2aa;
 
 // Form Colors
 //------------------------------------------------------------------------------
 
 $gravity-input-background-color:  $gravity-white;
-$gravity-form-border-color:       $base-border-color;
+$gravity-form-border-color:       $gravity-medium-fog;
 $gravity-form-border-color-hover: darken( $gravity-form-border-color, 5 );
 $gravity-form-border-color-focus: darken( $gravity-form-border-color, 20 );
 $gravity-form-placeholder-color:  darken( $gravity-form-border-color, 10 );
