@@ -1,5 +1,43 @@
 .gform_wrapper {
 
+	.gform_card_icon_container {
+		margin-bottom: $gravity-margin;
+	}
+
+	.gform_card_icon {
+		background-repeat: no-repeat;
+		background-size: contain;
+		display: inline-block;
+		height: auto;
+		margin-right: 10px;
+		text-indent: -100%;
+		width: 52px;
+	}
+
+	.gform_card_icon_amex {
+		background-image: url( "images/cards/amex.svg" );
+	}
+
+	.gform_card_icon_discover {
+		background-image: url( "images/cards/discover.svg" );
+	}
+
+	.gform_card_icon_mastercard {
+		background-image: url( "images/cards/mastercard.svg" );
+	}
+
+	.gform_card_icon_visa {
+		background-image: url( "images/cards/visa.svg" );
+	}
+
+	.gform_card_icon_jcb {
+		background-image: url( "images/cards/jcb.svg" );
+	}
+
+	.gform_card_icon_maestro {
+		background-image: url( "images/cards/maestro.svg" );
+	}
+
 	.gfield_price {
 
 		.ginput_container {
