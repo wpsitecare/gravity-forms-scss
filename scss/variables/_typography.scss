@@ -1,15 +1,5 @@
 // Base Font Sizes
 //------------------------------------------------------------------------------
-$gravity-medium-font-size: $medium-font-size;
-$gravity-small-font-size:  $small-font-size;
-
-// Heading Font Properties
-//------------------------------------------------------------------------------
-
-$gravity-title-font-size:              $h4-font-size;
-$gravity-step-font-size:               $gravity-title-font-size;
-$gravity-datepicker-heading-font-size: 6pt;
-
-// Gravity Font Properties
-//------------------------------------------------------------------------------
-$gravity-description-font-size: $gravity-medium-font-size;
+$gravity-medium-font-size:  16px !default;
+$gravity-small-font-size:   12px !default;
+$gravity-title-font-size:   18px !default;

@@ -1,14 +1,7 @@
-// Global Screen Sizes
+// Gravity Forms Layout Options
 //------------------------------------------------------------------------------
-$gravity-small-screen: $small-screen;
-
-// Gravity Spacing
-//------------------------------------------------------------------------------
-
-$gravity-margin:        $content-margin-small;
-$gravity-margin-medium: $content-margin / 2;
-$gravity-margin-small:  $gravity-margin / 2;
-
-// Gravity Form Spacing
-//------------------------------------------------------------------------------
-$gravity-form-input-padding: $form-input-padding;
+$gravity-small-screen:      840px !default;
+$gravity-margin:             16px !default;
+$gravity-margin-medium:      13px !default;
+$gravity-margin-small:        8px !default;
+$gravity-form-input-padding: 10px !default;

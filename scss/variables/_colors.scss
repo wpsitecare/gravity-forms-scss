@@ -1,36 +1,29 @@
-// This file controls all base color styles for our theme. All colors should be
-// defined in _colors.scss. This allows us to at a glance determine global color
-// styles of our theme and prevents arbitrary color assignment.
-
-// Do not use the base theme colors in the scss partial files! Set up your theme's
-// base colors and then use scoped color values in your Sass partials.
-
 // Gravity Forms Colors
 //------------------------------------------------------------------------------
 
-$gravity-black:      #000;
-$gravity-off-black:  #1c1e1f;
-$gravity-gray:       #666;
-$gravity-light-gray: #a4a5a5;
-$gravity-light-fog:  #f3f3f4;
-$gravity-medium-fog: #e0e0e0;
-$gravity-fog:        #ccc;
-$gravity-white:      #fff;
+$gravity-black:      #000 !default;
+$gravity-off-black:  #1c1e1f !default;
+$gravity-gray:       #666 !default;
+$gravity-light-gray: #a4a5a5 !default;
+$gravity-light-fog:  #f3f3f4 !default;
+$gravity-medium-fog: #e0e0e0 !default;
+$gravity-fog:        #ccc !default;
+$gravity-white:      #fff !default;
 
-$gravity-blue:       #0072bc;
-$gravity-yellow:     #fff2aa;
-$gravity-green:      #94dc21;
-$gravity-orange:     #dc7021;
-$gravity-red:        #dc2521;
-$gravity-required:   #f00;
-$gravity-error:      darken( $gravity-required, 10 );
-$gravity-error-text: lighten( $gravity-required, 10 );
+$gravity-blue:       #0072bc !default;
+$gravity-yellow:     #fff2aa !default;
+$gravity-green:      #94dc21 !default;
+$gravity-orange:     #dc7021 !default;
+$gravity-red:        #dc2521 !default;
+$gravity-required:   #f00 !default;
+$gravity-error:      darken( $gravity-required, 10 ) !default;
+$gravity-error-text: lighten( $gravity-required, 10 ) !default;
 
 // Form Colors
 //------------------------------------------------------------------------------
 
-$gravity-input-background-color:  $gravity-white;
-$gravity-form-border-color:       $gravity-medium-fog;
-$gravity-form-border-color-hover: darken( $gravity-form-border-color, 5 );
-$gravity-form-border-color-focus: darken( $gravity-form-border-color, 20 );
-$gravity-form-placeholder-color:  darken( $gravity-form-border-color, 10 );
+$gravity-input-background-color:  $gravity-white !default;
+$gravity-form-border-color:       $gravity-medium-fog !default;
+$gravity-form-border-color-hover: darken( $gravity-form-border-color, 5 ) !default;
+$gravity-form-border-color-focus: darken( $gravity-form-border-color, 20 ) !default;
+$gravity-form-placeholder-color:  darken( $gravity-form-border-color, 10 ) !default;
