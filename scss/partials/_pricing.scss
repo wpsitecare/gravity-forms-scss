@@ -2,11 +2,11 @@
 
 	.gfield_creditcard_warning {
 		background: $gravity-white;
-		border-left: 5px solid $gravity-error;
+		border-left: 5px solid $gravity-red;
 		padding: 15px 15px 10px;
 
 		.gfield_creditcard_warning_message {
-			color: $gravity-error-text;
+			color: $gravity-red;
 		}
 	}
 

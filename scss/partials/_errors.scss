@@ -2,11 +2,11 @@
 
 	.gfield_error {
 		background: $gravity-white;
-		border-left: 5px solid $gravity-error;
+		border-left: 5px solid $gravity-red;
 		padding: 15px 15px 10px;
 
 		> label {
-			color: $gravity-error-text;
+			color: $gravity-red;
 		}
 
 		input[type="color"],
@@ -26,10 +26,10 @@
 		input,
 		select,
 		textarea {
-			border-color: $gravity-error;
+			border-color: $gravity-red;
 
 			&::placeholder {
-				color: $gravity-error;
+				color: $gravity-red;
 				opacity: 0.7;
 			}
 		}

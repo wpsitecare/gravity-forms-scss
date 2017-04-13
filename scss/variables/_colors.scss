@@ -1,6 +1,5 @@
 // Gravity Forms Colors
 //------------------------------------------------------------------------------
-
 $gravity-black:      #000 !default;
 $gravity-off-black:  #1c1e1f !default;
 $gravity-gray:       #666 !default;
@@ -15,15 +14,3 @@ $gravity-yellow:     #fff2aa !default;
 $gravity-green:      #94dc21 !default;
 $gravity-orange:     #dc7021 !default;
 $gravity-red:        #dc2521 !default;
-$gravity-required:   #f00 !default;
-$gravity-error:      darken( $gravity-required, 10 ) !default;
-$gravity-error-text: lighten( $gravity-required, 10 ) !default;
-
-// Form Colors
-//------------------------------------------------------------------------------
-
-$gravity-input-background-color:  $gravity-white !default;
-$gravity-form-border-color:       $gravity-medium-fog !default;
-$gravity-form-border-color-hover: darken( $gravity-form-border-color, 5 ) !default;
-$gravity-form-border-color-focus: darken( $gravity-form-border-color, 20 ) !default;
-$gravity-form-placeholder-color:  darken( $gravity-form-border-color, 10 ) !default;
