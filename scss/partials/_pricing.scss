@@ -1,10 +1,29 @@
 .gform_wrapper {
 
+	.gfield_creditcard_warning {
+		background: $gravity-white;
+		border-left: 5px solid $gravity-error;
+		padding: 15px 15px 10px;
+
+		.gfield_creditcard_warning_message {
+			color: $gravity-error-text;
+		}
+	}
+
+	.ginput_container_creditcard {
+		flex-wrap: wrap;
+
+		.ginput_full {
+			margin-top: $gravity-margin;
+		}
+	}
+
 	.gform_card_icon_container {
 		margin-bottom: $gravity-margin;
 	}
 
-	.gform_card_icon {
+	.gform_card_icon,
+	.ginput_card_security_code_icon {
 		background-repeat: no-repeat;
 		background-size: contain;
 		display: inline-block;
@@ -36,6 +55,39 @@
 
 	.gform_card_icon_maestro {
 		background-image: url( "images/cards/maestro.svg" );
+	}
+
+	.ginput_card_security_code_icon {
+		background-image: url( "images/cards/security-code.svg" );
+	}
+
+	.ginput_card_expiration_container {
+		select {
+			@include span( 6 of 12 );
+			flex-shrink: 0;
+
+			&:last-of-type {
+				@include span( last 6 of 12 );
+			}
+		}
+	}
+
+	.ginput_complex .ginput_cardinfo_left {
+		@include span( 6 of 12 );
+		flex-shrink: 0;
+	}
+
+	.ginput_complex .ginput_cardinfo_right {
+		@include span( last 6 of 12 );
+		flex-shrink: 0;
+	}
+
+	.ginput_card_security_code {
+		@include span( 10 of 12 );
+	}
+
+	.ginput_card_security_code_icon {
+		@include span( last 2 of 12 );
 	}
 
 	.gfield_price {
